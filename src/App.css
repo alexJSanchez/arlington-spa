@@ -1,44 +1,12 @@
-.App {
-	text-align: center;
-}
-
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
-}
-
-.App-header {
-	background-color: #282c34;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-
-.App-link {
-	color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 .nav {
 	display: flex;
 	align-items: center;
+	background: linear-gradient(to bottom right, #9acd32, #769655);
 	justify-content: center;
 }
 
@@ -54,4 +22,41 @@
 	span {
 		font-size: 40px;
 	}
+}
+.image-container {
+	background-image: url("/src/images/commonarea_1440.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0 50px;
+}
+
+.header-content {
+	color: black;
+	font-size: 15px;
+	line-height: 1.5;
+
+	div {
+		text-align: center;
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0) 0%,
+			/* Transparent at 0% */ rgba(255, 255, 255, 0.7) 25%,
+			/* Opacity 0.2 at 25% */ rgba(255, 255, 255, 0.5) 50%,
+			/* Opacity 0.4 at 50% */ rgba(255, 255, 255, 0.4) 60%,
+			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.2) 65%,
+			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.2) 70%,
+			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.4) 75%,
+			/* Opacity 0.4 at 75% */ rgba(255, 255, 255, 0.5) 85%,
+			/* Opacity 0.2 at 85% */ rgba(255, 255, 255, 0.7) 100%
+				/* Transparent at 100% */
+		);
+	}
+}
+
+.circular-image {
+	border-radius: 50%;
+	/* Optional: Define width and height for the image to ensure it appears as a circle */
+	min-width: 50px; /* Adjust width as needed */
+	min-height: 50px; /* Adjust height as needed */
 }
