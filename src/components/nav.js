@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 function Nav() {
 	return (
 		<div className="nav">
-			<Link to="/">home</Link>
-			<Link to="/contact">contact</Link>
+			<div className="logo-container">
+				<p>Foot</p>
+				<span class="material-symbols-outlined">Barefoot</span>
+				<p>Spa</p>
+			</div>
 		</div>
 	);
 }
