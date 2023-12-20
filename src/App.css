@@ -126,7 +126,31 @@ font-family: 'Quicksand', sans-serif; */
 	align-items: center;
 	position: relative;
 }
-
-.footer-container {
+.footer {
+	background: linear-gradient(to top left, #769655, #9acd32);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	text-align: center;
+}
+.footer-container p {
+	font-size: 24px;
+	font-family: "Quicksand", sans-serif;
+}
+.button-one {
+	text-transform: uppercase;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 700;
+	background-color: #32cdb3;
+	border: none;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4); /* Adjust shadow values as needed */
 }

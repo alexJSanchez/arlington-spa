@@ -52,6 +52,9 @@ function Main() {
 							src={discover}
 						/>
 					</div>
+					<button style={{ margin: "20px 0px" }} className="button-one">
+						Schedule an appointment
+					</button>
 				</div>
 			</div>
 			<div className="about-container">
