@@ -33,7 +33,8 @@
 }
 
 .header-content {
-	color: black;
+	font-family: cursive;
+	font-weight: 700;
 	font-size: 15px;
 	line-height: 1.5;
 	width: 100%;
@@ -78,6 +79,9 @@
 }
 .service-box {
 	padding: 20px 50px;
+	h3 {
+		opacity: 0.7;
+	}
 }
 .service-box-image {
 	display: flex;

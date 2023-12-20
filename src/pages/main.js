@@ -11,7 +11,7 @@ function Main() {
 				<div className="header-content">
 					<div>
 						<h1>Arlington footspa</h1>
-						<p>696 Dutchess turnpike poughkepsie, ny 12603</p>
+						<p>696 Dutchess turnpike poughkepsie, NY 12603</p>
 						<p>845-345-9223</p>
 						<h3>Store Hours</h3>
 						<p>
@@ -30,8 +30,18 @@ function Main() {
 			<div className="service-container">
 				<div className="service-box">
 					<div>
+						<img src={facial} className="circular-image" />
+						<h3>Facial</h3>
+					</div>
+					<div className="service-box-price">
+						<p>Time(30min/60min)</p>
+						<p>$30/$60</p>
+					</div>
+				</div>
+				<div className="service-box">
+					<div>
 						<img src={commonArea} className="circular-image" />
-						<p>Chair Relaxing</p>
+						<h3>Chair Relaxing</h3>
 					</div>
 					<div className="service-box-price">
 						<p>Time(10min/15min/20min/30min)</p>
@@ -41,27 +51,18 @@ function Main() {
 				<div className="service-box">
 					<div>
 						<img src={footM} className="circular-image" />
-						<p>SeaSalt Foot Reflexology</p>
+						<h3>SeaSalt Foot Reflexology</h3>
 					</div>
 					<div className="service-box-price">
 						<p>Time(30min/60min)</p>
 						<p>$30/$45</p>
 					</div>
 				</div>
-				<div className="service-box">
-					<div>
-						<img src={facial} className="circular-image" />
-						<p>Facial</p>
-					</div>
-					<div className="service-box-price">
-						<p>Time(30min/60min)</p>
-						<p>$30/$60</p>
-					</div>
-				</div>
+
 				<div className="service-box">
 					<div>
 						<img src={image} className="circular-image" />
-						<p>Body Work</p>
+						<h3>Body Work</h3>
 					</div>
 					<div className="service-box-price">
 						<p>Swedish(30min/60min/90min)</p>
@@ -83,7 +84,7 @@ function Main() {
 							alt="Second Image"
 						/>
 					</div>
-					<p>Body&Feet Combo</p>
+					<h3>Body&Feet Combo</h3>
 					<div className="service-box-price">
 						<p>Time(30+30/30+60/60+30/60+60)</p>
 						<p>$60/$80/$90/$100</p>
@@ -103,7 +104,7 @@ function Main() {
 							alt="Second Image"
 						/>
 					</div>
-					<p>Body&Chair Combo</p>
+					<h3>Body&Chair Combo</h3>
 					<div className="service-box-price">
 						<p>Time(30+30/30+60/60+30/60+60)</p>
 						<p>$60/$80/$90/$100</p>
