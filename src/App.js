@@ -3,6 +3,7 @@ import Main from "./pages/main.js";
 import "./App.css";
 import Nav from "./components/nav.js";
 import Contact from "./pages/contact.js";
+import Footer from "./components/footer.js";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 					<Route path="/" element={<Main />}></Route>
 					<Route path="/contact" element={<Contact />}></Route>
 				</Routes>
+				<Footer />
 			</BrowserRouter>
 		</div>
 	);
