@@ -21,12 +21,12 @@ font-family: 'Quicksand', sans-serif; */
 .logo-container {
 	display: flex;
 	align-items: center;
-	p {
-		font-size: 30px;
-	}
-	span {
-		font-size: 40px;
-	}
+}
+.logo-container p {
+	font-size: 30px;
+}
+.logo-container span {
+	font-size: 40px;
 }
 .image-container {
 	text-align: center;
