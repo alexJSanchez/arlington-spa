@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 	font-family: cursive;
 }
+/*avaliable fonts
+/* font-family: 'Antonio', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Quicksand', sans-serif; */
 .nav {
 	display: flex;
 	align-items: center;
