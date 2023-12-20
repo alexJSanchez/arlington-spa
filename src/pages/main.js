@@ -27,6 +27,7 @@ function Main() {
 						</p>
 					</div>
 					<div
+						className="header-content-text"
 						style={{
 							display: "flex",
 							justifyContent: "center",
