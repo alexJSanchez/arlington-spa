@@ -7,6 +7,8 @@ import americanexpress from "../images/americanExpress.png";
 import mastercard from "../images/mastercard.png";
 import visa from "../images/visa.png";
 import discover from "../images/discover.png";
+import bambooMid from "../images/bambooMedium.png";
+import bambooSmall from "../images/bambooSmall.png";
 function Main() {
 	return (
 		<div className="main">
@@ -40,6 +42,16 @@ function Main() {
 					</div>
 				</div>
 			</div>
+			<div className="about-container">
+				<p>
+					Arlington Foot Spa is a foot and body spa that offers guest complete
+					relaxation from head to toe. Not only can you treat your feet to a
+					total comfirmating expireance, you are also welcome to enjoy full ody
+					work.Our hieghly trained and skilled staff weill take your achy, tired
+					feet and muscles,and will rub them until they're brandnew again
+				</p>
+				<img src={bambooMid} />
+			</div>
 			<div className="service-container">
 				<div className="service-box">
 					<div>
@@ -71,7 +83,6 @@ function Main() {
 						<p>$30/$45</p>
 					</div>
 				</div>
-
 				<div className="service-box">
 					<div>
 						<img src={image} className="circular-image" />
@@ -123,6 +134,19 @@ function Main() {
 						<p>$60/$80/$90/$100</p>
 					</div>
 				</div>
+			</div>
+			<div className="about-container">
+				<img src={bambooMid} />
+				<p>
+					Receiving regular foot reflexology and body works helps to promote
+					physiological as wel a physical health. The benifits include improving
+					blood circulation, fighting depression, helping you to relax,
+					promoting bteer sleep and relieving body pain. Our team embers not
+					only invite you to expireience a calming and relaxing enviorment
+					during your visit, but will also help to ease tension in your feet and
+					body, so you can enjoy a more enjoyable and pain-free life between
+					visits.
+				</p>
 			</div>
 		</div>
 	);

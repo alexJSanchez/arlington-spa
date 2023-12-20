@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: cursive;
 }
 .nav {
 	display: flex;
@@ -55,14 +56,30 @@
 		);
 	}
 }
+.about-container {
+	background: linear-gradient(to bottom left, #769655, #9acd32),
+		url("./images/bambooMedium.png");
+	font-weight: 500;
+	text-align: center;
+	padding: 30px 30px 0;
+	font-size: 16px;
+	line-height: 1.7;
+	p {
+		padding-bottom: 30px;
+	}
+	img {
+		margin-bottom: 20px;
+	}
+}
+
 .circular-image-one {
 	position: absolute;
 }
 .circular-image {
 	border-radius: 50%;
 	/* Optional: Define width and height for the image to ensure it appears as a circle */
-	width: 70px; /* Adjust width as needed */
-	height: 70px; /* Adjust height as needed */
+	width: 90px; /* Adjust width as needed */
+	height: 90px; /* Adjust height as needed */
 }
 .circular-image-left {
 	left: 0;
@@ -90,7 +107,7 @@
 	}
 }
 .service-box {
-	padding: 20px 50px;
+	padding: 20px 0px 10px;
 	h3 {
 		opacity: 0.7;
 	}
