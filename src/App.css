@@ -111,9 +111,9 @@ font-family: 'Quicksand', sans-serif; */
 }
 .service-box {
 	padding: 20px 0px 10px;
-	h3 {
-		opacity: 0.7;
-	}
+}
+.service-box h3 {
+	opacity: 0.7;
 }
 .service-box-image {
 	display: flex;
