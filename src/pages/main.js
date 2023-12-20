@@ -3,6 +3,10 @@ import image from "../images/oil.jpg";
 import commonArea from "../images/commonAreaSmall.jpg";
 import footM from "../images/footMassage.jpg";
 import facial from "../images/depositphotos_13789300-stock-photo-latin-woman-spa.jpg";
+import americanexpress from "../images/americanExpress.png";
+import mastercard from "../images/mastercard.png";
+import visa from "../images/visa.png";
+import discover from "../images/discover.png";
 function Main() {
 	return (
 		<div className="main">
@@ -10,7 +14,7 @@ function Main() {
 				<div className="gradient-overlay"></div>
 				<div className="header-content">
 					<div>
-						<h1>Arlington footspa</h1>
+						<h1>ARLINGTON FOOTSPA</h1>
 						<p>696 Dutchess turnpike poughkepsie, NY 12603</p>
 						<p>845-345-9223</p>
 						<h3>Store Hours</h3>
@@ -20,10 +24,19 @@ function Main() {
 						<p>
 							<span>Sun</span>: 11am-730pm
 						</p>
-						<span>AmericanExpress</span>
-						<span>mastercard</span>
-						<span>Visa</span>
-						<span>Discover</span>
+					</div>
+					<div
+						style={{
+							display: "flex",
+							justifyContent: "center",
+							alignItems: "center",
+							gap: "10px",
+						}}
+					>
+						<img src={americanexpress} />
+						<img style={{ width: "41px", height: "40px" }} src={mastercard} />
+						<img style={{ width: "41px", height: "40px" }} src={visa} />
+						<img style={{ width: "41px", height: "40px" }} src={discover} />
 					</div>
 				</div>
 			</div>

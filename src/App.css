@@ -42,14 +42,14 @@
 		text-align: center;
 		background: linear-gradient(
 			to right,
-			rgba(255, 255, 255, 0) 0%,
-			/* Transparent at 0% */ rgba(255, 255, 255, 0.7) 25%,
+			rgba(255, 255, 255, 0.7) 0%,
+			/* Transparent at 0% */ rgba(255, 255, 255, 0.6) 25%,
 			/* Opacity 0.2 at 25% */ rgba(255, 255, 255, 0.5) 50%,
 			/* Opacity 0.4 at 50% */ rgba(255, 255, 255, 0.4) 60%,
 			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.2) 65%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.2) 70%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.4) 75%,
-			/* Opacity 0.4 at 75% */ rgba(255, 255, 255, 0.5) 85%,
+			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.4) 70%,
+			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.5) 75%,
+			/* Opacity 0.4 at 75% */ rgba(255, 255, 255, 0.6) 85%,
 			/* Opacity 0.2 at 85% */ rgba(255, 255, 255, 0.7) 100%
 				/* Transparent at 100% */
 		);
@@ -76,6 +76,18 @@
 .service-container {
 	background: linear-gradient(to bottom right, #9acd32, #769655);
 	text-align: center;
+}
+@media only screen and (min-width: 768px) {
+	.service-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.circular-image {
+		border-radius: 50%;
+		/* Optional: Define width and height for the image to ensure it appears as a circle */
+		width: 100px; /* Adjust width as needed */
+		height: 100px; /* Adjust height as needed */
+	}
 }
 .service-box {
 	padding: 20px 50px;
