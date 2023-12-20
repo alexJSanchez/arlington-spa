@@ -55,14 +55,18 @@ function Main() {
 				</div>
 			</div>
 			<div className="about-container">
-				<p>
+				<p className="about-container-text">
 					Arlington Foot Spa is a foot and body spa that offers guest complete
 					relaxation from head to toe. Not only can you treat your feet to a
 					total comfirmating expireance, you are also welcome to enjoy full ody
 					work.Our hieghly trained and skilled staff weill take your achy, tired
 					feet and muscles,and will rub them until they're brandnew again
 				</p>
-				<img alt="bamboo medium" src={bambooMid} />
+				<img
+					className="about-container-image"
+					alt="bamboo medium"
+					src={bambooMid}
+				/>
 			</div>
 			<div className="service-container">
 				<div className="service-box">
@@ -148,8 +152,12 @@ function Main() {
 				</div>
 			</div>
 			<div className="about-container">
-				<img alt="bamboo mid" src={bambooMid} />
-				<p>
+				<img
+					className="about-container-image"
+					alt="bamboo mid"
+					src={bambooMid}
+				/>
+				<p className="about-container-text">
 					Receiving regular foot reflexology and body works helps to promote
 					physiological as wel a physical health. The benifits include improving
 					blood circulation, fighting depression, helping you to relax,
