@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../images/oil.jpg";
+import commonArea from "../images/commonAreaSmall.jpg";
 function Main() {
 	return (
 		<div className="main">
@@ -24,8 +25,29 @@ function Main() {
 					</div>
 				</div>
 			</div>
-			<div>
-				<img src={image} className="circular-image" />
+			<div className="service-container">
+				<div className="service-box">
+					<div>
+						<img src={image} className="circular-image" />
+						<p>Body Work</p>
+					</div>
+					<div className="service-box-price">
+						<p>Swedish(30min/60min/90min)</p>
+						<p>$35/$60/$90</p>
+						<p>DeepTissue(30min/60min/90min)</p>
+						<p>$40/$70/$90</p>
+					</div>
+				</div>
+				<div className="service-box">
+					<div>
+						<img src={commonArea} className="circular-image" />
+						<p>Chair Relaxing</p>
+					</div>
+					<div className="service-box-price">
+						<p>Time(10min/15min/20min/30min)</p>
+						<p>$15/$20/$25/$35</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

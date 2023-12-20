@@ -57,6 +57,12 @@
 .circular-image {
 	border-radius: 50%;
 	/* Optional: Define width and height for the image to ensure it appears as a circle */
-	min-width: 50px; /* Adjust width as needed */
-	min-height: 50px; /* Adjust height as needed */
+	width: 75px; /* Adjust width as needed */
+	height: 75px; /* Adjust height as needed */
+}
+.service-container {
+	text-align: center;
+}
+.service-box {
+	margin: 20px 50px;
 }
