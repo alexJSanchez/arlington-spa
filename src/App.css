@@ -24,6 +24,7 @@
 	}
 }
 .image-container {
+	display: flex;
 	background-image: url("/src/images/commonarea_1440.jpg");
 	background-position: center;
 	background-size: cover;
@@ -35,7 +36,7 @@
 	color: black;
 	font-size: 15px;
 	line-height: 1.5;
-
+	width: 100%;
 	div {
 		text-align: center;
 		background: linear-gradient(
@@ -53,16 +54,34 @@
 		);
 	}
 }
-
+.circular-image-one {
+	position: absolute;
+}
 .circular-image {
 	border-radius: 50%;
 	/* Optional: Define width and height for the image to ensure it appears as a circle */
-	width: 75px; /* Adjust width as needed */
-	height: 75px; /* Adjust height as needed */
+	width: 70px; /* Adjust width as needed */
+	height: 70px; /* Adjust height as needed */
+}
+.circular-image-left {
+	left: 0;
+	transform: translateX(25%);
+}
+
+.circular-image-right {
+	right: 0;
+	transform: translateX(-25%);
 }
 .service-container {
+	background: linear-gradient(to bottom right, #9acd32, #769655);
 	text-align: center;
 }
 .service-box {
-	margin: 20px 50px;
+	padding: 20px 50px;
+}
+.service-box-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }

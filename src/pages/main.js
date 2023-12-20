@@ -1,6 +1,8 @@
 import React from "react";
 import image from "../images/oil.jpg";
 import commonArea from "../images/commonAreaSmall.jpg";
+import footM from "../images/footMassage.jpg";
+import facial from "../images/depositphotos_13789300-stock-photo-latin-woman-spa.jpg";
 function Main() {
 	return (
 		<div className="main">
@@ -28,6 +30,36 @@ function Main() {
 			<div className="service-container">
 				<div className="service-box">
 					<div>
+						<img src={commonArea} className="circular-image" />
+						<p>Chair Relaxing</p>
+					</div>
+					<div className="service-box-price">
+						<p>Time(10min/15min/20min/30min)</p>
+						<p>$15/$20/$25/$35</p>
+					</div>
+				</div>
+				<div className="service-box">
+					<div>
+						<img src={footM} className="circular-image" />
+						<p>SeaSalt Foot Reflexology</p>
+					</div>
+					<div className="service-box-price">
+						<p>Time(30min/60min)</p>
+						<p>$30/$45</p>
+					</div>
+				</div>
+				<div className="service-box">
+					<div>
+						<img src={facial} className="circular-image" />
+						<p>Facial</p>
+					</div>
+					<div className="service-box-price">
+						<p>Time(30min/60min)</p>
+						<p>$30/$60</p>
+					</div>
+				</div>
+				<div className="service-box">
+					<div>
 						<img src={image} className="circular-image" />
 						<p>Body Work</p>
 					</div>
@@ -39,13 +71,42 @@ function Main() {
 					</div>
 				</div>
 				<div className="service-box">
-					<div>
-						<img src={commonArea} className="circular-image" />
-						<p>Chair Relaxing</p>
+					<div className="service-box-image service-box-image-ovelay">
+						<img
+							src={footM}
+							className="circular-image circular-image-left"
+							alt="FootM Image"
+						/>
+						<img
+							src={image}
+							className="circular-image circular-image-right"
+							alt="Second Image"
+						/>
 					</div>
+					<p>Body&Feet Combo</p>
 					<div className="service-box-price">
-						<p>Time(10min/15min/20min/30min)</p>
-						<p>$15/$20/$25/$35</p>
+						<p>Time(30+30/30+60/60+30/60+60)</p>
+						<p>$60/$80/$90/$100</p>
+					</div>
+				</div>
+
+				<div className="service-box">
+					<div className="service-box-image service-box-image-ovelay">
+						<img
+							src={image}
+							className="circular-image circular-image-left"
+							alt="FootM Image"
+						/>
+						<img
+							src={commonArea}
+							className="circular-image circular-image-right"
+							alt="Second Image"
+						/>
+					</div>
+					<p>Body&Chair Combo</p>
+					<div className="service-box-price">
+						<p>Time(30+30/30+60/60+30/60+60)</p>
+						<p>$60/$80/$90/$100</p>
 					</div>
 				</div>
 			</div>
