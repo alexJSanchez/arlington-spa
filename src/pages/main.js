@@ -8,7 +8,6 @@ import mastercard from "../images/mastercard.png";
 import visa from "../images/visa.png";
 import discover from "../images/discover.png";
 import bambooMid from "../images/bambooMedium.png";
-import bambooSmall from "../images/bambooSmall.png";
 function Main() {
 	return (
 		<div className="main">
