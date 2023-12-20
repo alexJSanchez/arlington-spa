@@ -43,35 +43,22 @@ font-family: 'Quicksand', sans-serif; */
 	font-size: 15px;
 	line-height: 1.5;
 	width: 100%;
-	div {
-		text-align: center;
-		background: linear-gradient(
-			to right,
-			rgba(255, 255, 255, 0.7) 0%,
-			/* Transparent at 0% */ rgba(255, 255, 255, 0.6) 25%,
-			/* Opacity 0.2 at 25% */ rgba(255, 255, 255, 0.5) 50%,
-			/* Opacity 0.4 at 50% */ rgba(255, 255, 255, 0.4) 60%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.2) 65%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.4) 70%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.5) 75%,
-			/* Opacity 0.4 at 75% */ rgba(255, 255, 255, 0.6) 85%,
-			/* Opacity 0.2 at 85% */ rgba(255, 255, 255, 0.7) 100%
-				/* Transparent at 100% */
-		);
-		background: --webkit-linear-gradient(
-			to right,
-			rgba(255, 255, 255, 0.7) 0%,
-			/* Transparent at 0% */ rgba(255, 255, 255, 0.6) 25%,
-			/* Opacity 0.2 at 25% */ rgba(255, 255, 255, 0.5) 50%,
-			/* Opacity 0.4 at 50% */ rgba(255, 255, 255, 0.4) 60%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.2) 65%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.4) 70%,
-			/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.5) 75%,
-			/* Opacity 0.4 at 75% */ rgba(255, 255, 255, 0.6) 85%,
-			/* Opacity 0.2 at 85% */ rgba(255, 255, 255, 0.7) 100%
-				/* Transparent at 100% */
-		);
-	}
+}
+.header-content-text {
+	text-align: center;
+	background: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0.7) 0%,
+		/* Transparent at 0% */ rgba(255, 255, 255, 0.6) 25%,
+		/* Opacity 0.2 at 25% */ rgba(255, 255, 255, 0.5) 50%,
+		/* Opacity 0.4 at 50% */ rgba(255, 255, 255, 0.4) 60%,
+		/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.2) 65%,
+		/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.4) 70%,
+		/* Opacity 0.6 at 60% */ rgba(255, 255, 255, 0.5) 75%,
+		/* Opacity 0.4 at 75% */ rgba(255, 255, 255, 0.6) 85%,
+		/* Opacity 0.2 at 85% */ rgba(255, 255, 255, 0.7) 100%
+			/* Transparent at 100% */
+	);
 }
 .about-container {
 	background: linear-gradient(to bottom left, #769655, #9acd32),

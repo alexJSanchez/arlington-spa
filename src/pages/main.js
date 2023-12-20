@@ -14,7 +14,7 @@ function Main() {
 			<div className="image-container">
 				<div className="gradient-overlay"></div>
 				<div className="header-content">
-					<div>
+					<div className="header-content-text">
 						<h1>ARLINGTON FOOTSPA</h1>
 						<p>696 Dutchess turnpike poughkepsie, NY 12603</p>
 						<p>845-345-9223</p>
