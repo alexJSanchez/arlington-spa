@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/oil.jpg";
+import bodyWork from "../images/oil.jpg";
 import commonArea from "../images/commonAreaSmall.jpg";
 import footM from "../images/footMassage.jpg";
 import facial from "../images/depositphotos_13789300-stock-photo-latin-woman-spa.jpg";
@@ -34,10 +34,22 @@ function Main() {
 							gap: "10px",
 						}}
 					>
-						<img src={americanexpress} />
-						<img style={{ width: "41px", height: "40px" }} src={mastercard} />
-						<img style={{ width: "41px", height: "40px" }} src={visa} />
-						<img style={{ width: "41px", height: "40px" }} src={discover} />
+						<img alt="american express card" src={americanexpress} />
+						<img
+							alt="master card"
+							style={{ width: "41px", height: "40px" }}
+							src={mastercard}
+						/>
+						<img
+							alt="visa card"
+							style={{ width: "41px", height: "40px" }}
+							src={visa}
+						/>
+						<img
+							alt="discover card"
+							style={{ width: "41px", height: "40px" }}
+							src={discover}
+						/>
 					</div>
 				</div>
 			</div>
@@ -49,12 +61,12 @@ function Main() {
 					work.Our hieghly trained and skilled staff weill take your achy, tired
 					feet and muscles,and will rub them until they're brandnew again
 				</p>
-				<img src={bambooMid} />
+				<img alt="bamboo medium" src={bambooMid} />
 			</div>
 			<div className="service-container">
 				<div className="service-box">
 					<div>
-						<img src={facial} className="circular-image" />
+						<img alt="facial" src={facial} className="circular-image" />
 						<h3>Facial</h3>
 					</div>
 					<div className="service-box-price">
@@ -64,7 +76,7 @@ function Main() {
 				</div>
 				<div className="service-box">
 					<div>
-						<img src={commonArea} className="circular-image" />
+						<img alt="commonArea" src={commonArea} className="circular-image" />
 						<h3>Chair Relaxing</h3>
 					</div>
 					<div className="service-box-price">
@@ -74,7 +86,7 @@ function Main() {
 				</div>
 				<div className="service-box">
 					<div>
-						<img src={footM} className="circular-image" />
+						<img alt="footM" src={footM} className="circular-image" />
 						<h3>SeaSalt Foot Reflexology</h3>
 					</div>
 					<div className="service-box-price">
@@ -84,7 +96,7 @@ function Main() {
 				</div>
 				<div className="service-box">
 					<div>
-						<img src={image} className="circular-image" />
+						<img alt="body work" src={bodyWork} className="circular-image" />
 						<h3>Body Work</h3>
 					</div>
 					<div className="service-box-price">
@@ -97,14 +109,14 @@ function Main() {
 				<div className="service-box">
 					<div className="service-box-image service-box-image-ovelay">
 						<img
+							alt="Foot "
 							src={footM}
 							className="circular-image circular-image-left"
-							alt="FootM Image"
 						/>
 						<img
-							src={image}
+							src={bodyWork}
 							className="circular-image circular-image-right"
-							alt="Second Image"
+							alt="body work"
 						/>
 					</div>
 					<h3>Body&Feet Combo</h3>
@@ -117,14 +129,14 @@ function Main() {
 				<div className="service-box">
 					<div className="service-box-image service-box-image-ovelay">
 						<img
-							src={image}
+							src={bodyWork}
 							className="circular-image circular-image-left"
-							alt="FootM Image"
+							alt="body work"
 						/>
 						<img
 							src={commonArea}
 							className="circular-image circular-image-right"
-							alt="Second Image"
+							alt="common area"
 						/>
 					</div>
 					<h3>Body&Chair Combo</h3>
@@ -135,7 +147,7 @@ function Main() {
 				</div>
 			</div>
 			<div className="about-container">
-				<img src={bambooMid} />
+				<img alt="bamboo mid" src={bambooMid} />
 				<p>
 					Receiving regular foot reflexology and body works helps to promote
 					physiological as wel a physical health. The benifits include improving
