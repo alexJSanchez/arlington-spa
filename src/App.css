@@ -25,6 +25,7 @@
 	}
 }
 .image-container {
+	text-align: center;
 	background-image: url("/src/images/commonarea_1440.jpg");
 	background-position: center;
 	background-size: cover;
