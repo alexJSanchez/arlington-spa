@@ -16,7 +16,7 @@ function Main() {
 				<div className="header-content">
 					<div className="header-content-text">
 						<h1>ARLINGTON FOOTSPA</h1>
-						<p>696 Dutchess turnpike poughkepsie, NY 12603</p>
+						<p>696 Dutchess Turnpike Poughkepsie, NY 12603</p>
 						<p>845-345-9223</p>
 						<h3>Store Hours</h3>
 						<p>

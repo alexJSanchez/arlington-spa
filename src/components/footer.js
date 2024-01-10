@@ -4,8 +4,10 @@ function Footer() {
 	return (
 		<div className="footer">
 			<div className="footer-container">
-				<button className="button-one">Schedule an appointment</button>
-				<p>696 Dutchess turnpike poughkepsie, NY 12603</p>
+				<button style={{ marginBottom: "30px" }} className="button-one">
+					Schedule an appointment
+				</button>
+				<p>696 Dutchess Turnpike Poughkepsie, NY 12603</p>
 				<p>845-345-9223</p>
 				<h3>Store Hours</h3>
 				<p>
